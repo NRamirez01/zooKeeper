@@ -1,7 +1,7 @@
 package zookeeper;
 
 public class Bat extends Mammal{
-	public int energyLevel = 300;
+	public int energyLevel = Mammal.energyLevel + 200;
 	
 	public void fly() {
 		if(energyLevel >= 50) {
